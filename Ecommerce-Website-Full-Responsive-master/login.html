@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="JS_files/login-form.js"></script>
+</head>
+<body style="background-image:url('Images/login-background.jpg');background-size: cover;">
+    <div class="container">
+        <div class="container form bg-white pt-5 mt-4 mb-3">
+            <p class="text-center login-heading hide-me">Login</p>
+            <div class="container hide-me">
+                <div class="row">
+                    <div class="col mt-4 pl-5 pr-5">
+                        <p class="username">Username</p>
+                        <div class="row mt-4">
+                            <div class="col-2 text-center pt-1 pr-0">
+                                <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
+                            </div>
+                            <div class="col-10 pl-0">
+                                <input type="text" placeholder="Type your username" class='input-1'>
+                            </div>
+                        </div>
+                        <hr class="hr-1">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-4 pl-5 pr-5">
+                        <p class="username">Password</p>
+                        <div class="row mt-4">
+                            <div class="col-2 text-center pt-1 pr-0">
+                                <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
+                            </div>
+                            <div class="col-10 pl-0">
+                                <input type="password" placeholder="Type your password" class="input-2">
+                            </div>
+                        </div>
+                        <hr class="hr-2">
+                    </div>
+                </div>
+                <!-- Phone Number Input -->
+                <div class="row">
+                    <div class="col mt-4 pl-5 pr-5">
+                        <p class="username">Phone Number</p>
+                        <div class="row mt-4">
+                            <div class="col-2 text-center pt-1 pr-0">
+                                <i class="fa fa-phone" aria-hidden="true" id="phone"></i>
+                            </div>
+                            <div class="col-10 pl-0">
+                                <input type="text" placeholder="Type your phone number" class='phone-number'>
+                            </div>
+                        </div>
+                        <hr class="hr-1">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-right pr-5">
+                        <a href="#"><span class="forget-password">Forget password?</span></a>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col pl-5 pr-5">
+                        <span class="btn btn-block text-white login-button">Login</span>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col text-center">
+                        <span style="text-transform: capitalize;font-family: Arial, Helvetica, sans-serif;font-size:15px;font-weight:600;color:rgb(148, 141, 141)">or sign up using</span>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class='col text-center social-media-icons'>
+                        <span class="facebook-icon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                        <span class="twitter-icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                        <span class="google-icon"><i class="fa fa-google" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col text-center">
+                        <span style="text-transform: capitalize;font-family: Arial, Helvetica, sans-serif;font-size:15px;font-weight:600;color:rgb(148, 141, 141)">already have an account</span>
+                    </div>
+                    <div class="col-12 text-center pt-3">
+                        <a href="#" class="login-page"><span class="login-page">Login</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-center login-heading show-me">Sign Up</p>
+            <div class="row show-me">
+                <div class="col mt-4 pl-5 pr-5">
+                    <p class="username">First Name</p>
+                    <div class="row mt-4">
+                        <div class="col-2 text-center pt-1 pr-0">
+                            <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
+                        </div>
+                        <div class="col-10 pl-0">
+                            <input type="text" placeholder="Type your first name" class='first-name'>
+                        </div>
+                    </div>
+                    <hr class="hr-1">
+                </div>
+            </div>
+            <div class="row show-me">
+                <div class="col mt-4 pl-5 pr-5">
+                    <p class="username">Last Name</p>
+                    <div class="row mt-4">
+                        <div class="col-2 text-center pt-1 pr-0">
+                            <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
+                        </div>
+                        <div class="col-10 pl-0">
+                            <input type="text" placeholder="Type your last name" class='last-name'>
+                        </div>
+                    </div>
+                    <hr class="hr-1">
+                </div>
+            </div>
+            <div class="row show-me">
+                <div class="col mt-4 pl-5 pr-5">
+                    <p class="username">Email</p>
+                    <div class="row mt-4">
+                        <div class="col-2 text-center pt-1 pr-0">
+                            <i class="fa fa-envelope-o" aria-hidden="true" id="mail"></i>
+                        </div>
+                        <div class="col-10 pl-0">
+                            <input type="email" placeholder="Type your email" class='email'>
+                        </div>
+                    </div>
+                    <hr class="hr-1">
+                </div>
+            </div>
+            <div class="row show-me">
+                <div class="col mt-4 pl-5 pr-5">
+                    <p class="username">Password</p>
+                    <div class="row mt-4">
+                        <div class="col-2 text-center pt-1 pr-0">
+                            <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
+                        </div>
+                        <div class="col-10 pl-0">
+                            <input type="password" placeholder="Type your password" class="password-signup">
+                        </div>
+                    </div>
+                    <hr class="hr-1">
+                </div>
+            </div>
+            <div class="row show-me">
+                <div class="col mt-4 pl-5 pr-5">
+                    <p class="username">Confirm Password</p>
+                    <div class="row mt-4">
+                        <div class="col-2 text-center pt-1 pr-0">
+                            <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
+                        </div>
+                        <div class="col-10 pl-0">
+                            <input type="password" placeholder="Confirm your password" class="confirm-password-signup">
+                        </div>
+                    </div>
+                    <hr class="hr-1">
+                </div>
+            </div>
+            <!-- Phone Number Input -->
+            <div class="row show-me">
+                <div class="col mt-4 pl-5 pr-5">
+                    <p class="username">Phone Number</p>
+                    <div class="row mt-4">
+                        <div class="col-2 text-center pt-1 pr-0">
+                            <i class="fa fa-phone" aria-hidden="true" id="phone"></i>
+                        </div>
+                        <div class="col-10 pl-0">
+                            <input type="text" placeholder="Type your phone number" class='phone-number-signup'>
+                        </div>
+                    </div>
+                    <hr class="hr-1">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col pl-5 pr-5">
+                    <span class="btn btn-block text-white signup-button">Sign Up</span>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <span style="text-transform: capitalize;font-family: Arial, Helvetica, sans-serif;font-size:15px;font-weight:600;color:rgb(148, 141, 141)">or login using</span>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class='col text-center social-media-icons'>
+                    <span class="facebook-icon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                    <span class="twitter-icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                    <span class="google-icon"><i class="fa fa-google" aria-hidden="true"></i></span>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <span style="text-transform: capitalize;font-family: Arial, Helvetica, sans-serif;font-size:15px;font-weight:600;color:rgb(148, 141, 141)">already have an account</span>
+                </div>
+                <div class="col-12 text-center pt-3">
+                    <a href="#" class="signup-page"><span class="signup-page">Sign Up</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS_files/login-form.js"></script>
+</body>
+</html>
